@@ -412,6 +412,27 @@ p { margin: 0; }
 .product-card--lemongrass .product-card__tags li { background: #E9F3DC; color: #45631F; }
 .product-card--seasalt .product-card__tags li { background: #DEEFF2; color: #1F5A6B; }
 
+.product-card__buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(42,35,24,.1);
+}
+.product-card__price {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--palm-deep);
+}
+.btn--sm {
+  padding: .6rem 1.2rem;
+  font-size: .85rem;
+  box-shadow: none;
+}
+
 /* ---------- why / ingredients ---------- */
 .why {
   position: relative;
