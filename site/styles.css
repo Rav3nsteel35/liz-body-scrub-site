@@ -197,6 +197,13 @@ p { margin: 0; }
   line-height: 1.12;
 }
 .section-title--light { color: var(--cream); }
+.section-note {
+  margin-top: 1rem;
+  font-family: var(--font-label);
+  font-size: .8rem;
+  letter-spacing: .02em;
+  color: var(--clay-dark);
+}
 
 /* ---------- hero ---------- */
 .hero {
