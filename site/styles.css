@@ -542,7 +542,7 @@ p { margin: 0; }
 }
 .success-photo--wide {
   grid-column: 1 / -1;
-  aspect-ratio: 900 / 395;
+  aspect-ratio: 900 / 285;
 }
 .success-photo--wide img {
   object-position: center 40%;
