@@ -515,6 +515,45 @@ p { margin: 0; }
   margin-bottom: 1.1rem;
 }
 
+/* ---------- success story ---------- */
+.success {
+  background: var(--sand-deep);
+  padding: 5.5rem 1.5rem 6rem;
+}
+.success-grid {
+  max-width: var(--container);
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+}
+.success-photo {
+  margin: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 20px 40px -28px rgba(22,40,28,.35);
+  background: var(--cream);
+}
+.success-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.success-photo--wide {
+  grid-column: 1 / -1;
+  aspect-ratio: 900 / 395;
+}
+.success-photo--wide img {
+  object-position: center 40%;
+}
+.success-photo:not(.success-photo--wide) {
+  aspect-ratio: 3 / 4;
+}
+@media (max-width: 640px) {
+  .success-grid { grid-template-columns: 1fr; }
+}
+
 /* ---------- cta ---------- */
 .cta {
   position: relative;
